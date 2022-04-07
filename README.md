@@ -47,16 +47,14 @@ the website's various pages with ease which is the value it will provide to the 
 - The balanced diet page includes a picture of an image representing balance which is consistent with the theme of the page which is a balanced diet
 - The value to the user is that it may make the webpage visually appealing for them and it may also help to grab their attention
 
-![This is an image](/assets/images/readme_images/balance.png)
+![This is an image](/assets/images/readme_images/balanced_diet_page_image.png)
 
 #### - Balanced diet information section: 
 
 - This section provides the user with information on a balanced diet
 - The value to the user is that it may help them to better understand what a balanced diet is and consequently may help them to maintain a more balanced diet in their life
 
-![This is an image](/assets/images/readme_images/balanced_diet_information_1.png)
-![This is an image](/assets/images/readme_images/balanced_diet_information_2.png)
-![This is an image](/assets/images/readme_images/balanced_diet_information_3.png)
+![This is an image](/assets/images/readme_images/balanced_diet_information.png)
 
  #### - Recipe finder page:
 
