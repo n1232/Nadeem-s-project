@@ -1,108 +1,179 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# EATING RIGHT 
 
-Welcome n1232,
+## <b>OVERVIEW</b>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Eating Right is a website which has the purpose of promoting and encouraging people to eat healthier. In order to try and achieve this, I have included various features in the website such as a section which educates the user on a balanced diet, a video on how to diet on a budget in addition to a variety of healthy recipes which users can choose from. The target audience of Eating Right is the health conscious in addition to those who are trying or wanting to be.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+-----------------------------------------------------------------------------------------------
 
-## Gitpod Reminders
+## <b>FEATURES</b>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-----------------------------------------------------------------------------------------------
 
-`python3 -m http.server`
+### EXISTING FEATURES 
 
-A blue button should appear to click: _Make Public_,
+#### - Navigation bar:
 
-Another blue button should appear to click: _Open Browser_.
+- The navigation bar is present on every page of the website amd is fully responsive
+- It includes the logo, home page, a balanced diet page, Healthy recipes page, budget dieting page and references page.
+- The purpose of the navigation bar is to try and allow the user to navigate across
+the website's various pages with ease which is the value it will provide to the user
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![This is an image](assets/images/readme_images/nav_bar.png)
 
-A blue button should appear to click: _Make Public_,
+#### - Hero page image:
 
-Another blue button should appear to click: _Open Browser_.
+- The hero page includes a photo of a variety of healthy foods which is consistent with the nature of the website
+- This value to the user is that it nay help make the website visually attractive and may also help grab their attention
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![This is an image](/assets/images/readme_images/hero_image.png)
 
-To log into the Heroku toolbelt CLI:
+#### - About section:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- The about section of the webpage informs users of the purpose of Eating Right
+- The value of this to the user is that it may help them decide whether the website may be useful for themself or not.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![This is an image](/assets/images/readme_images/about_section.png)
 
-------
+#### - Footer:
 
-## Release History
+- The footer includes links to Eating Right's social media pages which open up in a new tab when clicked
+- The value of the footer to the user is that it may encourage them to stay connected to Eating Right via social media
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![This is an image](/assets/images/readme_images/footer.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### - Balanced diet page image:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- The balanced diet page includes a picture of an image representing balance which is consistent with the theme of the page which is a balanced diet
+- The value to the user is that it may make the webpage visually appealing for them and it may also help to grab their attention
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![This is an image](/assets/images/readme_images/balance.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### - Balanced diet information section: 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- This section provides the user with information on a balanced diet
+- The value to the user is that it may help them to better understand what a balanced diet is and consequently may help them to maintain a more balanced diet in their life
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![This is an image](/assets/images/readme_images/balanced_diet_information_1.png)
+![This is an image](/assets/images/readme_images/balanced_diet_information_2.png)
+![This is an image](/assets/images/readme_images/balanced_diet_information_3.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ #### - Recipe finder page:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- This page includes a list of healthy recipes which the user may choose from
+- Each recipe is represented by an image of the dish along with text below which is the name of the dish
+- Both the image and the text is a link which when clicked leads to an internal webpage that includes the full recipe details
+- The value of this page to the user is that it will present a list of healthy recipes in a visually appealing way which may encourage them towards clicking on the recipes and finding out how to make them and so therefore this section may encourage them towards a healthier lifestyle
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![This is an image](/assets/images/readme_images/recipe_finder.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### - Individual recipe pages:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- Each individual recipe page includes full details on the relevant recipe
+- The structure on every seperate recipe page is similar with seperate sections for the ingredients and method
+- The value that this page will provide to the user is that it may encourage them towards a healthier lifestyle by informing them of how to make healthy dishes which they or their families may eat
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![This is an image](/assets/images/readme_images/individual_recipe_page_1.png)
+![This is an image](/assets/images/readme_images/individual_recipe_page_2.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### - Return button:
 
-------
+- The return button is featured on every individual recipe page and essentially is a hyperlink which redirects the user back to the main recipe overview page 
+- The value that it may provide to the user is that it will allow them to navigate back to the main recipe page without having to go back to the main navigation menu and so may help to make navigation easier for them
 
-## FAQ about the uptime script
+![This is an image](/assets/images/readme_images/return_button.png)
 
-**Why have you added this script?**
+#### - Budget dieting video:
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- This video provides the user with tips on how to diet on a budget
+- The value of this video is that it may help even those with not a lot of money to find find ways to eat healthy
 
-**How will this affect me?**
+![This is an image](/assets/images/readme_images/video.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+#### - Reference page section:
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- The references section includes links to sources of the content used to make the website that open up in a seperate page when clicked
+- The value this may provide to the user is that if they want to find out who more information on healthy eating then they can do so by visiting the source websites
+![This is an image](/assets/images/readme_images/references.png)
 
-**So….?**
+## <b>TESTING</b>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+-------------------------------------------------------------------------------------------------------- 
 
-**Can I opt out?**
+I am able to confirm that the website works on different browsers: Safari, Chrome and Firefox.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+I able to confirm that the website's images are diplayed nicely, the video works and how links for the website work as intended.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+I am also able to confirm that the website is responsive and works on different screen sizes.
 
-**Anything more?**
+Upon testing, all sections consisting of text like logo, nav bar etc. are readable
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+I have tested all funtions and features of the website which work and meet purpose.
 
----
+### Bugs
 
-Happy coding!
+#### Solved bugs
+
+One of the bugs I have encountered along the way include one to to do with the social media icons for the footer, where the actual icons would not display. I managed to solve this after realising that I had to sign up for Font Awesome first.
+
+Another bug I encountered was to do with the Budget dieting tips video, where I tried to adjust the video size. Initially, I made a class which I assigned to the video in Html and tried styling in CSS but this didn't lead to the intended outcome. I then tried styling the video tag directly in HTML which worked.
+
+Also, when using the navbar on one occasion I realised that when on an individual recipe page, the navbar was showing that I was on the references page when it was meant to show that I was on the healthy recipes page. I realised sooner or later that it was to do with the active class which was the case. Once the active class was assigned to the corrrect hyperlink, this bug was also fixed.
+
+#### Unsolved bugs
+
+No unsolved bugs
+
+### Validator testing
+
+#### - HTML
+
+- No errors were returned when passing through the [official W3C validator](https://validator.w3.org/)
+
+#### - CSS
+
+- No errors were found when passing through the [official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/Email.html)
+
+#### - Accessability
+
+I am able to confirm that my website is accessible to a sufficient standard according to Wave web accessability evaluation tool.
+
+![This is an image](/assets/images/readme_images/wave_accessability_checker.png)
+
+## <b>DEPLOYMENT</b>
+
+-------------------------------------------------------------------------------------------------------- 
+
+This site was deployed to GitHub pages. The steps for deployment include:
+
+- Navigating to the settings tab in the GitHub repository 
+- Selecting the master branch from the source section drop down menu
+- Upon selecting the master branch, the page should provide the link to the completed website
+
+## <b>CREDITS</b>
+
+-------------------------------------------------------------------------------------------------------- 
+
+### Content
+
+The text for the balanced diet section was taken from [The British Nutrition Foundation](https://www.nutrition.org.uk/healthy-sustainable-diets/healthy-and-sustainable-diets/a-healthy-balanced-diet/).
+
+The recipe content for every individual recipe page was taken from [BBC good food](https://www.bbcgoodfood.com/recipes/collection/healthy-dinner-recipes).
+
+The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+### Media
+
+The hero page image is from [Parade](https://parade.com/1010772/marysauer/cheap-healthy-food/).
+
+The balanced diet page image is from [Forbes](https://www.forbes.com/sites/forbeshumanresourcescouncil/2020/09/30/work-life-balance-is-no-longer-just-a-company-issue/).
+
+All images on the main recipe finder page and all individual recipe pages are from [BBC good food](https://link-url-here.org).
+
+The video on the budget dieting page belongs to [Magnus Method Youtube channel ](https://link-url-here.org).
+
+ ### Code
+
+ A majority of help was taken from [W3schools](https://www.w3schools.com/) where a huge chunk of code used for the website is from. Other help/code was recieved from [HTML dog](https://htmldog.com/guides/css/beginner/borders/), [Stack overflow](https://stackoverflow.com/) and [Anvil project](https://anvilproject.org/guides/content/creating-links).

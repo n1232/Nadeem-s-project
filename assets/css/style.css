@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono:wght@200&display=swap');
+ * {
+     padding: 0px;
+     margin: 0;
+     border: none;
+}
+/* Logo and headings */
+ h1,h2 {
+     text-transform: uppercase;
+}
+ #logo {
+     color: black;
+     float: left;
+     font-size: 275%;
+     margin-left: 30px;
+}
+/* Logo and headings end */
+/* Navigation menu */
+ #menu {
+     font-size: 120%;
+}
+ #logo, #menu {
+     border-style: hidden;
+}
+ #menu li {
+     list-style-type: none;
+     float: right;
+     margin-right: 30px;
+}
+ #menu a {
+     text-decoration: none;
+     color: inherit;
+}
+ #menu a:hover {
+     border-bottom: 1px solid green;
+}
+ #menu, #logo {
+     line-height: 75px;
+}
+ .active {
+     border-bottom: 1px solid green;
+}
+/* Navigation menu end*/
+/* Hero image */
+ #hero_image {
+     background-color: white;
+     text-align: center;
+}
+ #hero_image img {
+     max-width: 100%;
+     height: 100%;
+}
+/* Hero image end*/
+/* Page formatting */
+ #page_formatting {
+     width: 50%;
+     margin: 0 auto;
+     text-align: center;
+     padding: 30px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+ #title {
+     margin-top: 50px;
+     font-size: 100%;
+}
+ #content {
+     margin-top: 30px;
+     font-size: 20px;
+}
+ hr {
+     border-top: 5px solid ;
+     width: 100%;
+     margin-bottom: 10px;
+}
+/* Page formatting end*/
+/* Footer */
+ footer {
+     height: 150px;
+}
+ .social-networks {
+     text-align: center;
+}
+ .social-networks a {
+     text-decoration: none;
+}
+ .social-networks > li{
+     display: inline;
+     list-style-type: none;
+     text-decoration: none;
+}
+ .social-networks i {
+     font-size: 160%;
+     margin: 1%;
+     padding: 5%;
+     color: #000000;
+}
+ .social-networks i:hover {
+     color: green;
+}
+/* Footer end*/
+/* Recipe page */
+ .recipe_images {
+     max-width: 100%;
+     height: 100%;
+     text-align: center;
+     margin-top: 50px;
+}
+ .recipe_images img {
+     max-width: 35%;
+     width: 35%;
+}
+ .recipe_links {
+     text-align: center;
+     margin-top: 30px;
+}
+ .recipe_links a {
+     color: #000000;
+     text-decoration: none;
+}
+ .recipe_links a:hover {
+     color: green;
+}
+/* Recipe page end*/
+/* Balanced diet page image */
+ .balanced_diet_page_image {
+     background-color: white;
+     text-align: center;
+}
+ .balanced_diet_page_image img {
+     max-width: 100%;
+     height: 100%;
+     text-align: center;
+}
+/* Balanced diet page image end*/
+/* Return button for individual recipe pages*/
+ #return_button {
+     margin-top: 70px;
+     text-align: left;
+     margin-left: 30px;
+}
+ #return_button a {
+     color: #000000;
+     text-decoration: none;
+     padding: 5px;
+     border-style: solid;
+}
+ #return_button a:hover {
+     color: green;
+}
+/* Return button for individual recipe pages end */
+/* Budget diet page video */
+ video {
+     width: 80%;
+     max-height: 80%;
+     text-align: center;
+}
+ .video {
+     text-align: center;
+ }
+/* Budget diet page video end */
+/* References page */
+ #references {
+     text-align: center;
+}
+ #references a {
+     color: #000000;
+     text-decoration: none;
+}
+ #references a:hover {
+     color: green;
+     text-decoration: none;
+}
+/* References page end*/
+/* Responsive design section */
+/* 0px up to 200px */
+ @media only screen and (min-width: 0px) and (max-width: 200px){
+     #menu ul {
+         display: flex;
+         flex-direction: column;
+    }
+     #return_button {
+         margin-top: 50px;
+         text-align: center;
+         margin-left: 0;
+    }
+     #logo {
+         margin-left: 0;
+    }
+}
+/* 200px up to 665px */
+ @media only screen and ( min-width: 200px) and (max-width: 665px) {
+     #menu ul {
+         display: flex;
+         flex-direction: column;
+    }
+     #return_button {
+         margin-top: 50px;
+         text-align: center;
+         margin-left: 0;
+    }
+     #logo {
+         margin-left: 0;
+    }
+}
+/* 992px up to 1200px */
+ @media only screen and (max-width: 992px) {
+     #navbar{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+    }
+     #menu {
+         margin-left: 30px;
+    }
+     #logo {
+         margin-left: 0;
+    }
+     #return_button {
+         margin-top: 40px;
+         text-align: center;
+         margin-left: 0;
+    }
+}
+/* Responsive design section end*/
